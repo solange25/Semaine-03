@@ -1,26 +1,16 @@
-let castArray = ['Robin', 'Barney', 'Lily', 'Marshal'];
 // Exercice 1:castArray ajoute "Ted" au tableau suivant
-
+let castArray = ['Robin', 'Barney', 'Lily', 'Marshal'];
 console.log(castArray.push('Ted'));
-
 // Exercice 2: Affiche l'index de "Ted" dans le tableau dans la console
-const index = castArray.findIndex(element => element === 'Ted');
-console.log(index);
-console.log(castArray[index]);
-
+console.log(castArray.indexOf('Ted'));
 // Exercice 3: Affiche l'index de Robin dans le tableau dans la console
-const index2 = castArray.findIndex(element => element === 'Robin');
-console.log(index2);
-console.log(castArray[index2]);
-
+console.log(castArray.indexOf('Robin'));
 // Exercice 4: retire "Robin" du tableau
-
 console.log(castArray.shift());
-
 // Exercice 5: retire "Ted" du tableau
 console.log(castArray.pop());
 // Exercice 6: ajoute "Ted" et "Robin" au tableau
-console.log(castArray.push('Ted,Robin'));
+console.log(castArray.push('Ted', 'Robin'));
 // Exercice 7: Affiche le nouvel index de Ted et Robin dans le tableau dans la console
 console.log(castArray.indexOf('Ted'));
 console.log(castArray.indexOf('Robin'));

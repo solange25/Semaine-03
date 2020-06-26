@@ -10,6 +10,4 @@ console.log(myQuestion);
 let myVar = prompt('yourAge');
 if (myVar >= 18) {
   alert('Bienvenue');
-} else {
-  alert('next time');
 }
